@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+ background-repeat: no-repeat;
+ background-size:cover ;
+    background-position: center;
+    height: 100vh;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-image: 
+  url("https://assets.brightspot.abebooks.a2z.com/dims4/default/ed0dcf5/2147483647/strip/true/crop/1580x760+0+0/resize/998x480!/quality/90/?url=http%3A%2F%2Fabebooks-brightspot.s3.us-west-2.amazonaws.com%2Fc0%2F0a%2Fcdc7407645d9953ccdfc71c8822e%2Fbest-books-22-carousel-il.png");
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center;
+ 
+}
+
+

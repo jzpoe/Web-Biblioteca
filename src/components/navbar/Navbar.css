@@ -1,0 +1,52 @@
+.nav_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Personaliza el color de fondo según tus preferencias */
+  color: #fff; /* Personaliza el color del texto según tus preferencias */
+  padding: 10px;
+  z-index: 100; /* Puedes ajustar el valor del índice z según tus necesidades */
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px; /* Ajusta el espaciado según sea necesario */
+  height: 15vh;
+  
+}
+
+.navbar_logo {
+  margin: 0; /* Elimina márgenes predeterminados */
+  color: #fff; /* Color del texto del logo */
+  font-size: 24px; /* Tamaño del texto del logo */
+cursor: pointer;}
+
+
+.carrito {
+  margin: 0; /* Elimina márgenes */
+  color: #fff; /* Color del carrito */
+  font-size: 24px; /* Tamaño del carrito */
+  cursor: pointer;
+
+}
+
+.cartCount {
+  left: 50px;
+  background-color: #ff5733; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border-radius: 50%; /* Forma de círculo */
+  width: 24px; /* Ancho del contador */
+  height: 24px; /* Altura del contador */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; /* Para posicionarlo en el icono */
+  top: 0; /* Ajusta la posición vertical según tus necesidades */
+  right: 0; /* Ajusta la posición horizontal según tus necesidades */
+  font-size: 14px; /* Tamaño de fuente */
+}

@@ -1,0 +1,61 @@
+/* .banner{
+
+    background-size:cover ;
+    background-position: center;
+    height: 100vh;
+    
+    } */
+.banner-container{
+    text-align: center;
+    padding: 15% 0;
+   
+    
+  }
+.banner h1{
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+    user-select: none; /* Evita la selección de texto */
+}
+.banner p{
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    user-select: none; /* Evita la selección de texto */
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  /* Estilo cuando el input está enfocado */
+  input:focus {
+    border-color: #007BFF; /* Cambia el color del borde cuando está enfocado */
+    box-shadow: 0 0 5px #007BFF; /* Agrega una sombra cuando está enfocado */
+  }
+  
+  /* Estilo para placeholder */
+  input::placeholder {
+    color: #999; /* Color del texto de marcador de posición */
+  }
+  
+  /* Estilo para el botón en un input de tipo "submit" */
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Cambia el estilo del botón al pasar el mouse por encima */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
